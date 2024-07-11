@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/shorts.css">
+    <link rel="icon" href="yt.png" type="image/x-icon">
+
+<body>
+
+    <div class="header">
+        <div class="section1">
+            <img class="menu-logo" src="images/menu.svg">
+            <img class="yt-logo" src="images/yt_logo.svg">
+        </div>
+        <div class="section2">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-btn"><img class="search-icon" src="images/search.svg"></button>
+            <button class="mic-btn"><img class="micro-icon" src="images/microphone.svg"></button>
+        </div>
+        <div class="section3">
+            <img class="vid-icon" src="images/video.svg">
+            <img class="noti-icon" src="images/notification.svg">
+            <img class="pfp-icon" src="images/user-pfp.jpg">
+        </div>
+        <div class="suggestions">
+            <div class="suggestion-buttons">
+                <button id="all" class="suggestion-btn">All</button>
+                <button class="suggestion-btn">Gaming</button>
+                <button class="suggestion-btn">Coding</button>
+                <button class="suggestion-btn">Live</button>
+                <button class="suggestion-btn">News</button>
+                <button class="suggestion-btn">Source Code</button>
+                <button class="suggestion-btn">Programming</button>
+                <button class="suggestion-btn">Development</button>
+                <button class="suggestion-btn">Cricket</button>
+                <button class="suggestion-btn">Learning</button>
+                <button class="suggestion-btn">Watched</button>
+                <button class="suggestion-btn">New to you</button>
+                <button class="suggestion-btn">League of Legends</button>
+                <button class="suggestion-btn">C++</button>
+                <button class="suggestion-btn">University</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img class="home-icon" src="images/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="shorts-icon" src="images/shorts.png">
+            <div>Shorts</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="subs-icon" src="images/subs.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img class="you-icon" src="images/you.svg">
+            <div>You</div>
+        </div>
+    </div>
+
+
+    <div class="videos-grid">
+        <div class="video1">
+            <div>
+                <div class="image-row">
+                    <img class="thumb1" src="images/pic1.jpg">
+                    <div class="vid-time">10:22</div>
+                </div>
+            </div>
+            <div class="vid-grid">
+                <div class="pfp1">
+                    <img class="profile-pic" src="images/pfp1.jpg">
+                </div>
+                <div class="info1">
+                    <p class="vid-title">Nvidia's Breakthrough AI Chip Defies Physics (GTC Supercut)</p>
+                    <p class="vid-owner">Ticker Symbol: YOU</p>
+                    <p class="vid-stats">1.1M views &#183; 4 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video1">
+            <div>
+                <div class="image-row">
+                    <img class="thumb1" src="images/pic2.jpg">
+                    <div class="vid-time">9:25</div>
+                </div>
+            </div>
+            <div class="vid-grid">
+                <div class="pfp1">
+                    <img class="profile-pic" src="images/pfp2.jpg">
+                </div>
+                <div class="info1">
+                    <p class="vid-title">Every CSS Animation property</p>
+                    <p class="vid-owner">chunkydotdev</p>
+                    <p class="vid-stats">26k views &#183; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video1">
+            <div>
+                <div class="image-row">
+                    <img class="thumb1" src="images/pic3.jpg">
+                    <div class="vid-time">10:02</div>
+                </div>
+            </div>
+            <div class="vid-grid">
+                <div class="pfp1">
+                    <img class="profile-pic" src="images/pfp3.jpg">
+                </div>
+                <div class="info1">
+                    <p class="vid-title">Comparing C to machine language</p>
+                    <p class="vid-owner">Ben Eater</p>
+                    <p class="vid-stats">4.9M views &#183; 9 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video1">
+            <div>
+                <div class="image-row">
+                    <img class="thumb1" src="images/pic4.jpg">
+                    <div class="vid-time">5:46</div>
+                </div>
+            </div>
+            <div class="vid-grid">
+                <div class="pfp1">
+                    <img class="profile-pic" src="images/pfp4.jpg">
+                </div>
+                <div class="info1">
+                    <p class="vid-title">Union Find in 5 minutes — Data Structures & Algorithms</p>
+                    <p class="vid-owner">Potato Coders</p>
+                    <p class="vid-stats">168K views &#183; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video1">
+            <div>
+                <div class="image-row">
+                    <img class="thumb1" src="images/pic5.jpg">
+                    <div class="vid-time">15:30</div>
+                </div>
+            </div>
+            <div class="vid-grid">
+                <div class="pfp1">
+                    <img class="profile-pic" src="images/pfp5.jpg">
+                </div>
+                <div class="info1">
+                    <p class="vid-title">From Zero to Full Stack: Master JavaScript and Create Dynamic Web Apps</p>
+                    <p class="vid-owner">HuXn WebDev</p>
+                    <p class="vid-stats">490K views &#183; 8 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video1">
+            <div>
+                <div class="image-row">
+                    <img class="thumb1" src="images/pic6.jpg">
+                    <div class="vid-time">5:46</div>
+                </div>
+            </div>
+            <div class="vid-grid">
+                <div class="pfp1">
+                    <img class="profile-pic" src="images/pfp6.jpg">
+                </div>
+                <div class="info1">
+                    <p class="vid-title">Learn MongoDB in 1 Hour</p>
+                    <p class="vid-owner">Bro Code</p>
+                    <p class="vid-stats">826K views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video1">
+            <div>
+                <div class="image-row">
+                    <img class="thumb1" src="images/pic7.jpg">
+                    <div class="vid-time">9:47</div>
+                </div>
+            </div>
+            <div class="vid-grid">
+                <div class="pfp1">
+                    <img class="profile-pic" src="images/pfp7.jpg">
+                </div>
+                <div class="info1">
+                    <p class="vid-title">This is Why Programming Is Hard For you</p>
+                    <p class="vid-owner">The Coding Sloth</p>
+                    <p class="vid-stats">292K views &#183; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video1">
+            <div>
+                <div class="image-row">
+                    <img class="thumb1" src="images/pic8.jpg">
+                    <div class="vid-time">6:49</div>
+                </div>
+            </div>
+            <div class="vid-grid">
+                <div class="pfp1">
+                    <img class="profile-pic" src="images/pfp8.jpg">
+                </div>
+                <div class="info1">
+                    <p class="vid-title">If I could give advice to myself when starting as a software engineer</p>
+                    <p class="vid-owner">ThePrimeagan</p>
+                    <p class="vid-stats">442K views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shorts-sect">
+        <img class="short-logo" src="images/shrt.png">
+        <div class="shorts">
+            <div class="shorts">
+                <div class="short-video">
+                    <img src="images/short1.webp">
+                    <div class="short-info">
+                        <p class="short-title">One Punch Man Death Gatling</p>
+                        <p class="short-stats">22K views</p>
+                    </div>
+                </div>
+                <div class="short-video">
+                    <img src="images/short2.webp">
+                    <div class="short-info">
+                        <p class="short-title">Anchor Feature In CSS</p>
+                        <p class="short-stats">286K views</p>
+                    </div>
+                </div>
+                <div class="short-video">
+                    <img src="images/short3.webp">
+                    <div class="short-info">
+                        <p class="short-title">Top 50 Programming Courses</p>
+                        <p class="short-stats">52K views</p>
+                    </div>
+                </div>
+                <div class="short-video">
+                    <img src="images/short4.webp">
+                    <div class="short-info">
+                        <p class="short-title">How to Make $1M</p>
+                        <p class="short-stats">453K views</p>
+                    </div>
+                </div>
+                <div class="short-video">
+                    <img src="images/short5.webp">
+                    <div class="short-info">
+                        <p class="short-title">Yuji Itadori JJK</p>
+                        <p class="short-stats">17K views</p>
+                    </div>
+                </div>
+                <div class="short-video">
+                    <img src="images/short6.webp">
+                    <div class="short-info">
+                        <p class="short-title">Engineering Expectations</p>
+                        <p class="short-stats">136K views</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

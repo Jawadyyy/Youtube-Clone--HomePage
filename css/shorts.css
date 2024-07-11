@@ -1,0 +1,52 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    margin: 0px;
+    padding-top: 145px;
+    padding-left: 90px;
+    padding-right: 20px;
+}
+
+.shorts {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.short-logo {
+    margin-left: 10px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.short-video {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.short-video img {
+    height: 385px;
+    width: 225px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.short-title {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.short-stats {
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-left: 1px;
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 10px;
+}

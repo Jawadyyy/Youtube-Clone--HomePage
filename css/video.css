@@ -1,0 +1,80 @@
+.video1 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    vertical-align: top;
+    cursor:pointer;
+}
+
+.video1,.thumb1:hover {
+    border-radius: 0px;
+}
+
+.thumb1 {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.pfp1 {
+    vertical-align: top;
+    width: 50px;
+}
+
+.info1 {
+    width: 200px;
+}
+
+.profile-pic {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.vid-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.vid-owner {
+    font-size: 12px;
+    color: #606060;
+}
+
+.vid-stats {
+    font-size: 12px;
+    color: #606060;
+}
+
+.vid-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.videos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap:40px;
+}
+
+.image-row {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.vid-time {
+    font-family: Roboto,Arial;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 13px;
+}
